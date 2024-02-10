@@ -1,5 +1,4 @@
 
-
 # Usage: This program aims to transfer your markdown file into a way zhihu.com can recognize correctly.
 #        It will mainly deal with your local images and the formulas inside.
 
@@ -19,8 +18,9 @@ from shutil import copyfile
 ###############################################################################################################
 # GITHUB_REPO_PREFIX = Path("https://raw.githubusercontent.com/`YourUserName`/`YourRepoName`/master/Data/")
 # Your image folder remote link
-GITHUB_REPO_PREFIX = "https://raw.githubusercontent.com/miracleyoo/Markdown4Zhihu/master/Data/"
-COMPRESS_THRESHOLD = 5e5 # The threshold of compression
+GITHUB_REPO_PREFIX = "https://raw.githubusercontent.com/light-ly/Markdown4Zhihu/master/Data/"
+COMPRESS_THRESHOLD = 5e5  # The threshold of compression
+
 
 # The main function for this program
 def process_for_zhihu():
